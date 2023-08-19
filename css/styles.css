@@ -1,0 +1,179 @@
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  color: #FFF;
+  background: #4D5AE5;
+  box-shadow: rgba(0, 0, 0, 0.15);
+}
+
+
+button:hover,
+.button:focus {
+    background: #404BBF;
+    box-shadow: rgba(0, 0, 0, 0.15);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #FFF;
+}
+
+.logotype {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.color-logotype {
+  color: #4d5ae5;
+}
+
+.menu-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
+.menu-link:hover,
+.nenu-link:focus {
+  color: #404bbf;
+}
+
+.contacts-link {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.50;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404BBF;
+}
+
+.hero {
+background: #2E2F42;
+}
+
+.main-title {
+  color: #FFF;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07
+   letter-spacing: 0.02em;
+}
+
+.sektion-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.advantages {
+  background: #FFF;
+}
+
+.advantages-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.20;
+  letter-spacing: 0.02em;
+}
+
+.advantages-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.50;
+  letter-spacing: 0.02em;
+}
+
+.team {
+  background: #F4F4FD;
+}
+
+.employee-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.20;
+  letter-spacing: 0.02em;
+}
+
+.employee-proffession {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.50;
+  letter-spacing: 0.02em;
+}
+
+.portfolio {
+    background: #FFF;
+}
+
+.portfolio-title {
+  color: #2E2F42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.20;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+   font-size: 16px;
+font-weight: 400;
+line-height: 1.50;
+letter-spacing: 0.02em;
+}
+
+.footer {
+background: #2E2F42;
+}
+
+.logotype-footer {
+  color: #4D5AE5;
+
+font-size: 18px;
+
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.logotype-foter {
+color: #F4F4FD;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.color-logotype-footer {
+color: #4D5AE5;
+}
+
+.foter-text {
+  color: #F4F4FD;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.50;
+  letter-spacing: 0.02em;
+}
