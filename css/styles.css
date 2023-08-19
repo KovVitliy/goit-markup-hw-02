@@ -125,7 +125,11 @@ text-transform: capitalize;
 }
 
 .team {
-  background-color: #F4F4FD;
+  background-color: ##F4F4FD;
+}
+
+.employee-item {
+    background-color: #FFFFFF
 }
 
 .employee-name {
@@ -172,6 +176,10 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+}
+
+.footer {
+background-color: #2e2f42;
 }
 
 .logotype-footer {
