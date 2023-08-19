@@ -18,13 +18,13 @@ font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
- }
+   }
 
 
 .hero-button:hover,
 .hero-button:focus {
-    color: #FFF;
     background-color: #404BBF;
+    color: #404bbf
        }
 
 body {
@@ -125,7 +125,7 @@ text-transform: capitalize;
 }
 
 .team {
-  background-color: #FFFFFF;
+  background-color: #F4F4FD;
 }
 
 .employee-name {
@@ -163,7 +163,7 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 }
 
-.footer {
+.footer-logo {
 background: #2E2F42;
 color: #4d5ae5;
 font-family: "Raleway", sans-serif;
