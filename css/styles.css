@@ -56,9 +56,9 @@ body {
 }
 
 .menu-link:hover,
-.menu-link:focus {
-  
-
+.nenu-link:focus {
+  color: #404bbf;
+}
 
 .contacts-link {
   font-size: 16px;
