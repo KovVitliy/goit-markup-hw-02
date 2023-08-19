@@ -11,15 +11,13 @@ button {
   font-family: inherit;
   color: #FFF;
   background: #4D5AE5;
-  box-shadow: rgba(0, 0, 0, 0.15);
-}
+ }
 
 
 button:hover,
 .button:focus {
     background: #404BBF;
-    box-shadow: rgba(0, 0, 0, 0.15);
-}
+   }
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -31,11 +29,11 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-}
+    #4d5ae5}
 
 .color-logotype {
   color: #4d5ae5;
