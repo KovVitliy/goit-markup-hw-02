@@ -6,17 +6,25 @@
   list-style-type: none;
 }
 
-button {
+.addres {
+font-style: normal;
+}
+
+.hero-button {
   cursor: pointer;
   font-family: inherit;
   color: #FFF;
   background: #4D5AE5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
  }
 
 
-button:hover,
-.button:focus {
-    background: #404BBF;
+.hero-button:hover,
+.hero-button:focus {
+    color: #FFF;
+    background-color: #404BBF;
    }
 
 body {
@@ -32,12 +40,12 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-    #4d5ae5}
-
-.color-logotype {
   color: #4d5ae5;
-}
+    }
+
+ .logotype-header {
+  color: #2E2F42;
+ }  
 
 .menu-link {
   font-size: 16px;
@@ -74,8 +82,9 @@ background: #2E2F42;
   color: #FFF;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.07
-   letter-spacing: 0.02em;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .sektion-title {
@@ -95,6 +104,7 @@ background: #2E2F42;
   font-weight: 500;
   line-height: 1.20;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .advantages-text {
@@ -102,6 +112,15 @@ background: #2E2F42;
   font-weight: 400;
   line-height: 1.50;
   letter-spacing: 0.02em;
+}
+
+.team-title {
+color: #2E2F42;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
 }
 
 .team {
