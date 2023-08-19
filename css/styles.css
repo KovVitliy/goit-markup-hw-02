@@ -24,7 +24,7 @@ font-style: normal;
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404BBF;
-    color: #404bbf
+    color: #404bbf;
        }
 
 body {
@@ -125,7 +125,7 @@ text-transform: capitalize;
 }
 
 .team {
-  background-color: ##F4F4FD;
+ background: #F4F4FD;
 }
 
 .employee-item {
