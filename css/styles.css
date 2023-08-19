@@ -121,6 +121,7 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
+text-transform: capitalize;
 }
 
 .team {
@@ -132,6 +133,7 @@ letter-spacing: 0.02em;
   font-weight: 500;
   line-height: 1.20;
   letter-spacing: 0.02em;
+   color: #2e2f42;
 }
 
 .employee-proffession {
@@ -151,6 +153,7 @@ letter-spacing: 0.02em;
   font-weight: 500;
   line-height: 1.20;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .portfolio-text {
@@ -162,29 +165,18 @@ letter-spacing: 0.02em;
 
 .footer {
 background: #2E2F42;
+color: #4D5AE5;
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 
 .logotype-footer {
-  color: #4D5AE5;
+      color: #F4F4FD;
 
-font-size: 18px;
-
-font-weight: 700;
-line-height: 1.16;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-}
-.logotype-foter {
-color: #F4F4FD;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.16;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-}
-
-.color-logotype-footer {
-color: #4D5AE5;
 }
 
 .foter-text {
