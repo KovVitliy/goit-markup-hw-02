@@ -7,7 +7,7 @@
 }
 
 .addres {
-font-style: normal;
+  font-style: normal;
 }
 
 .hero-button {
@@ -56,8 +56,8 @@ body {
 }
 
 .menu-link:hover,
-.nenu-link:focus {
-  color: #404bbf;
+.menu-link:focus {
+  color: #404BBF;
 }
 
 .contacts-link {
