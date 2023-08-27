@@ -30,6 +30,31 @@ img {
   list-style-type: none;
 }
 
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+
 .addres {
   font-style: normal;
 }
@@ -50,13 +75,27 @@ img {
   color: #404bbf;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #fff;
+/* === PAGE HEADER === */
+
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.page-header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-navigation {
+  display: flex;
+  align-items: center;
 }
 
 .logotype {
+  display: flex;
+  align-items: center;
+  margin-right: 76px;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -68,6 +107,11 @@ body {
 
 .logotype-header {
   color: #2e2f42;
+}
+
+.menu {
+  display: flex;
+  column-gap: 40px;
 }
 
 .menu-link {
@@ -97,6 +141,15 @@ body {
   color: #404bbf;
 }
 
+.addres-list {
+  display: flex;
+  column-gap: 40px;
+}
+
+.hero-container {
+text-align: center;
+}
+
 .hero {
   background: #2e2f42;
 }
@@ -118,8 +171,20 @@ body {
   text-transform: capitalize;
 }
 
+/* === ADVANTAGES === */
 .advantages {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background: #fff;
+}
+
+.advantages-list {
+  display: flex;
+  column-gap: 24px;
+}
+
+.advantages-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .advantages-title {
@@ -128,6 +193,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .advantages-text {
@@ -147,12 +213,20 @@ body {
   text-transform: capitalize;
 }
 
+/* === OUR TEAM === */
 .team {
   background: #f4f4fd;
 }
 
+.employee-list {
+display: flex;
+column-gap: 24px;
+
+}
+
 .employee-item {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
 }
 
 .employee-name {
@@ -170,8 +244,14 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* === OUR PORTFOLIO === */
+
 .portfolio {
   background: #fff;
+}
+
+.portfolio-list {
+  display: flex;
 }
 
 .portfolio-title {
@@ -201,9 +281,16 @@ body {
   text-transform: uppercase;
 }
 
+/* === FOOTER === */
+
 .footer {
   background-color: #2e2f42;
 }
+
+.footer-container {
+  padding-top: 140px;
+  padding-bottom: 100px;
+  }
 
 .logotype-footer {
   color: #f4f4fd;
